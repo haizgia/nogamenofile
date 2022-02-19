@@ -1,0 +1,54 @@
+/* pc */
+@media (min-width: 1024px){
+    #nav  li{
+        display: inline-block;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px){
+    #nav  li{
+        display: inline-block;
+    }
+}
+/* Mobile */
+@media (max-width:739px){
+    #header{
+        overflow: hidden;
+    }
+    /* ẩn nút search */
+    #header .search-btn {
+        display: none;
+    } 
+    /* hiện menu */
+    #header .icon-menu{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 16px;
+    }
+    #nav {
+        display: block;
+        width: 100%;
+    }   
+    #nav >li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: inherit;
+        background-color: rgb(210, 206, 238);
+    }
+    #nav .subnav a{
+        padding:5px 32px;
+    }
+    #content .s-col-full{
+        width: 100%;
+        padding: 8px 8px;
+    }
+    .s-width-full{
+        width: 100%;
+    }
+    #content .character-img{
+        width:70%;
+    }
+}
