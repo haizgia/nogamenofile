@@ -155,7 +155,7 @@ html {
     padding-top:50%;
     /* nền ảnh đổ từ lớp padding
         background: url() vị trí/ style repeat*/
-    background: url("/assets/img/picture.jpg") top center / cover no-repeat;
+    background: url("./assets/img/picture.jpg") top center / cover no-repeat;
 }
 
     #slider .text-content{
